@@ -21,7 +21,7 @@ public class PostmanEchoTest {
 
                 .then()
                 .statusCode(200)
-                .body("data", equalTo("Sun"));
+                .body("data", equalTo("Солнечно"));
     }
 
 }
